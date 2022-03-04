@@ -1,0 +1,48 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to left bottom, red, yellow);
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+#back
+{
+	font-size: 20px; float: right;
+}
+.para
+{
+	color: white;font-family: 'Yeon Sung';font-size: 20px;letter-spacing: 10px;margin-top: 80px;	
+}
+#back{
+	font-size: 20px; float: right;	
+}
+#read{
+	font-size: 20px; float: right;	
+}
+#textbox{
+	height: 2000px;
+}
+#pause{
+	font-size: 20px; float: right;	
+	visibility: hidden;
+}
+#textbox1{
+	height: 400px;
+}
+#fill{
+	font-size: 30px;
+	font-style: italic;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookstar Book Donation Page</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="book.css">
+
+</head>
+<body>
+<div class="container">
+<button id="back" onclick="back()" class="glyphicon glyphicon-arrow-left btn btn-danger">Back</button>
+	<center>
+        
+		<h1 class="header">	
+			Bookstar Donate Book
+		</h1>
+		<h3 id = "donor_type" class="color_white"></h3>
+		<br>
+		<h3 id = "country" class="color_white"></h3>
+		<br>
+		<h3 id = "name" class="color_white"></h3>
+		<br>
+		<h3 id = "phone_number" class="color_white"></h3>
+		<br>
+		<h3 id = "email" class="color_white"></h3>
+		<br>
+		<br>
+	<label>Name of the book</label>
+	<input type="text" id="book_name" placeholder ="Enter Book Name">
+	<br>
+	<br>
+	<button id="submit" class="btn btn-primary" onclick="submitBook()">Submit Book Name</button>
+	</center>
+</div>
+<script src="book_donation.js"></script>
+</body>
+</html>

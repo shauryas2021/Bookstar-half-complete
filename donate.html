@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookstar Donate Page</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="book.css">
+
+</head>
+<body>
+<div class="container">
+<button id="back" onclick="back()" class="glyphicon glyphicon-arrow-left btn btn-danger">Back</button>
+	<center>
+		<h1 class="header">	
+			Bookstar Donate Books Form
+		</h1>
+		<div class="input_div_login_page">
+            <label id="fill">FILL THIS FORM TO DONATE BOOKS</label>
+            <input type="text" id="donor_type" class="form-control" placeholder="Donor Type(Person, Organization, Buisness, Book Drive) ">
+            <br>
+            <input type="text" id="country" class="form-control" placeholder="Location(Country)">
+            <br>
+            <input type="text" id="donator_name" class="form-control" placeholder="Full Name">
+            <br>
+            <input type="text" id="area_code" class="form-control" placeholder="Area Code">
+            <br>
+            <input type="text" id="phone_number" class="form-control" placeholder="Phone Number">
+            <br>
+            <input type="text" id="email" class="form-control" placeholder="Email Id">
+            <br>
+            <button class="btn btn-success" onclick="registerForm()">Register Form</button>
+        </div>
+	</center>
+</div>
+<script src="donate.js"></script>
+</body>
+</html>
